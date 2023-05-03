@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Estrutura de Repetição: </title>
+</head>
+<body>
+    <script>
+            	for ( let  i  =  5 ;  i  >  0 ;  i -- ) {  // Decrementando
+          console.log(i);
+      }
+          for ( let  i  =  0 ;  i  <  5 ;  i ++ ) {  // Incrementando
+          console.log(i); 
+      }
+      //Vetores Arrays
+         let  marcas  =  [ "Asus" , "LG" , "Acer" , "Dell" ] ; 
+         let  t  =  marcas.length; 
+
+      for ( let  x  =  0 ;  x  <  t ;  x ++  )  {  
+          console . log ( marcas [ x ] ) ;
+      }
+      // While 
+         let  modelos  =  [ "LG" , "Samsung" , "Microsoft" , "Apple" , "Acer" ] ; 
+         let  cont  =  0 ;
+         while ( cont  <  modelos.length ) { 
+        console . log ( cont +  '-'  + modelos [ cont ] ) ;
+        cont ++ ;
+      }
+       console . log ( "--- Estrutura de Repetição DO WHILE ---" ) ; 
+       do {
+        console . log ( "Executado pelo menos uma vez" ) ; 
+      } while (false) 
+      console . log ( "--- Estrutura de Repetição FOR IN ---" ) ; 
+      let  objeto  =  { 1 : "C" ,  2 : "Python" ,  3 : "C++" ,  4 : "C#" ,  5 : "PHP" } ;
+
+   for ( let  prop in objeto )  {
+      console . log ( "Linguagem: " +  prop  + " - " + objeto [ prop ] ) ;
+   } 
+   console . log ( "--- Percorrer Objetos ---" ) ; 
+  const  pessoa  =  { 
+      nome : "Maria" ,
+      idade : 20 ,
+      peso : 65 ,
+      altura : 1.7
+      } 
+ for ( let  atributo  in  pessoa ) {  
+      console.log( pessoa [ atributivo ]);
+    }
+    
+   </script>
+</body>
+</html>
